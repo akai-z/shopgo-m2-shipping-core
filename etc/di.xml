@@ -6,6 +6,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Shipping\Block\Adminhtml\Order\Packaging" type="ShopGo\ShippingCore\Block\Adminhtml\Shipping\Order\Packaging"/>
     <virtualType name="ShopGo\ShippingCore\Model\Logger\Handler\Base" type="ShopGo\Core\Model\Logger\Handler\Base">
         <arguments>
             <argument name="logModulePath" xsi:type="string">shipping/core/</argument>

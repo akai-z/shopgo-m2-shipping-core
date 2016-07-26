@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Model\Order\Shipment">
+        <plugin name="order_shipment" type="ShopGo\ShippingCore\Model\Plugin\Sales\Order\Shipment" sortOrder="1" disabled="false"/>
+    </type>
+    <type name="Magento\Shipping\Model\Carrier\AbstractCarrierOnline">
+        <plugin name="shipping_abstract_carrier_online" type="ShopGo\ShippingCore\Model\Plugin\Shipping\Carrier\AbstractCarrierOnline" sortOrder="1" disabled="false"/>
+    </type>
+    <type name="Magento\Shipping\Model\Shipping\LabelGenerator">
+        <plugin name="shipping_label_generator" type="ShopGo\ShippingCore\Model\Plugin\Shipping\LabelGenerator" sortOrder="1" disabled="false"/>
+    </type>
+</config>
