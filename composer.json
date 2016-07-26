@@ -1,6 +1,6 @@
 {
     "name": "shopgo/shipping-core",
-    "description": "A module that Contains functions commonly used in ShopGo Magento shipping extensions.",
+    "description": "A module that contains functions commonly used in ShopGo Magento shipping extensions",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
