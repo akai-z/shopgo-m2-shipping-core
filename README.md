@@ -1,6 +1,7 @@
 Shipping Core `[UNMAINTAINED]`
 ==============================
 
+## `Latest code can be found in develop branch.`
 
 #### Contents
 *   [Synopsis](#syn)
